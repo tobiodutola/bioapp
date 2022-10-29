@@ -6,7 +6,7 @@ const PORT =process.env.PORT || 3030
 app.use(cors({credentials:true, origin:true}));
 
 app.get("/", (req,res)=>{
-    res.json({"slackUsername":"pherahrhi","backend":true,"age":27,"biography":"willing to learn and supports manchester united"})
+    res.json({"slackUsername":"pherahrhi","backend":true,"age":27,"bio":"willing to learn and supports manchester united"})
 })
 
 app.listen(PORT);
